@@ -1,0 +1,30 @@
+div.container {
+    margin: 20px;
+    width: 80%;
+}
+
+img {
+    height: 300px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.images {
+    display: flex;
+}
+
+.block {
+    display: flex;
+}
+
+div.btnContainer {
+    margin-bottom: 10px;
+}
+
+#port {
+    background-color: rgba(255,255,255, 0.8);
+    border-radius: 25px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

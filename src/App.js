@@ -1,15 +1,17 @@
 import './App.css';
-import Header from './components/Header';
-import Second from './components/Second';
-import Section from './components/Section';
+import { Route, Routes } from 'react-router-dom';
+import { Login } from './pages/Login';
+import { Home } from './pages/Home';
+import { ExamplePortfolio } from './pages/ExamplePortfolio';
+import HeaderApp from './components/HeaderApp';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Section/>
-      <Second/>
-    </div>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/Login' element={<Login />} />
+      <Route path='/ExamplePortfolio' element={<ExamplePortfolio />} />
+    </Routes>
   );
 }
 

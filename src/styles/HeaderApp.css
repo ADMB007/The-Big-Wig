@@ -1,0 +1,62 @@
+.header{
+    position:center;
+    width: 100%;
+    font-family:'Poppins' sans-serif;
+    background-image: url(../assets/ArtBG.jpg);
+    background-size:100%;
+    
+    
+}
+
+.header-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin: 1rem;
+    text-align: center;
+
+}
+.logo h1 {
+    color:white;
+    user-select: none;
+}
+
+
+.right{
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.slider {
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    top:0%;
+    right: 0;
+    background-color: black;
+    right: -100%;
+    transition: ease-out;
+}
+
+.slider.active{
+    right: 0;
+    transition: ease-out;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li a {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    height: 100px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    font-size: 25px;
+}
+

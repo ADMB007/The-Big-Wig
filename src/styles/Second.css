@@ -19,15 +19,21 @@
 }
 
 .card{
-    height: 200px;
+    height: 100px;
     width: 300px;
     margin-top: 1.5rem;
     background-size: cover;
    
 }
 
+.card-item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .card img{
     width: 100px;
+    height: auto;
     cursor: pointer;
     margin-top: 2rem;
     padding: 10px;
