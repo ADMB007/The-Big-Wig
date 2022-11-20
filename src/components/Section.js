@@ -1,11 +1,13 @@
 import React from 'react'
+import Header from './Header'
 import'../styles/Section.css'
 
 const Section = () => {
     return (
         <section className='section-1'>
+            <Header text='The Big Wig' />
 
-           <div className="section-container">
+            <div className="section-container">
 
                 <div className="texts">
                     <h1> Expierence <span>Art</span></h1>

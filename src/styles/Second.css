@@ -1,11 +1,10 @@
 .second-section{
-    width: 100%;
+    width: 100vw;
     height: 170vh;
     background-image: url(../assets/ArtBG2.jpg);
-    background-color: linear-gradient(rgba(0,0,0.521), rgba(0,0,0.466));
+    /* background-color: linear-gradient(rgba(0,0,0.521), rgba(0,0,0.466)); */
     background-size:cover;
     background-position: bottom;
-    border-top: 7px solid red;
     font-family: 'Poppings', sans-serif;
 }
 
@@ -20,8 +19,8 @@
 
 .card{
     height: 100px;
-    width: 300px;
-    margin-top: 1.5rem;
+    width: 100vw;
+    margin-bottom: 1.5rem;
     background-size: cover;
    
 }
@@ -67,4 +66,11 @@
     background: white;
     color: black;
     transition: 1s ease;
+}
+
+h1 {
+    position: relative;
+    top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
 }

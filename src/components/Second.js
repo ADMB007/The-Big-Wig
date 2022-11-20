@@ -3,8 +3,8 @@ import '../styles/Second.css'
 import profileicon from '../assets/profileicon.png'
 import calendar from '../assets/calendar.png'
 import tutoricon from '../assets/tutoricon.jpg'
-import download2 from '../assets/download2.png'
 import { Button } from './Button'
+import Text from './Text'
 import { Link } from 'react-router-dom'
 
 
@@ -14,11 +14,16 @@ const Second = () => {
         <div className="second-container">
             <div className="card">
                 <div className='card-item'>
-                    <img src={profileicon} alt="">
-                    </img>
+                    <img src={profileicon} alt="" />
                 </div>
                 <div className='card-item'>
                     <Button text={'Login'} link='/Login' />
+                </div>
+                <div className='card-item'>
+                    <h1>or</h1>
+                </div>
+                <div className='card-item'>
+                    <Button text={'Sign Up'} link='/Signup' />
                 </div>
             </div>
 

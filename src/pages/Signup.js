@@ -2,14 +2,14 @@ import { Link } from 'react-router-dom'
 import { Button } from '../components/Button'
 import './Login.css'
 
-export const Login = () => {
+export const Signup = () => {
     // username and password authentication here
 
     return (
         <div className='back' id='centered'>            
             <form id='centered'>
                 <div id='centered'>
-                    <h1>Login</h1>
+                    <h1>Sign up</h1>
                 </div>
                 <div id='centered'>
                     <b>Please enter your Email and Password</b>
@@ -30,7 +30,7 @@ export const Login = () => {
                     />
                 </div>
                 <Button text={'Submit'} link='/ExamplePortfolio' />
-                <Link to='/Signup'>Don't have an account? Click here</Link>
+                <Link to='/Login'>Already have an account? Click here</Link>
             </form>
         </div>
     )
