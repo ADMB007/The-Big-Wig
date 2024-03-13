@@ -1,0 +1,1 @@
+This project was for a course called Software Engineering. The basis of this project was to create an android application or website with your choice of programming language but add features to it that your competitors don’t have. Everything from this project was created/designed from the ground up. 
